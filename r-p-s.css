@@ -1,0 +1,19 @@
+body{
+    background: #DCE2C8;
+    font-size: 2rem;
+
+}
+input {
+    display: none;
+}
+img {
+    border: 5px solid transparent;
+    border-radius: 100%;
+    width: 200px;
+   
+    
+}
+input:checked + img {
+    border: 5px solid steelblue;
+}
+
