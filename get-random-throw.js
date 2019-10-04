@@ -1,3 +1,10 @@
-const userThrow = document.querySelector('input:checked')
+const getRandomThrow = (computerThrow) => {
+    if (computerThrow === 0)
+        return 'rock';
+    if (computerThrow === 1)
+        return 'paper';
+    if (computerThrow === 2)
+        return 'scissors';
+};
 
-export 
+export default getRandomThrow;

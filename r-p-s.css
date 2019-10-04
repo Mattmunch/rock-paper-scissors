@@ -1,7 +1,11 @@
 body{
     background: #DCE2C8;
     font-size: 2rem;
-
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Turret Road', cursive;
 }
 input {
     display: none;
@@ -10,10 +14,34 @@ img {
     border: 5px solid transparent;
     border-radius: 100%;
     width: 200px;
+    height: 150px;
    
     
 }
 input:checked + img {
     border: 5px solid steelblue;
 }
+label {
+    width: 200px;
+    height: 200px;
+}
 
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    font-family: 'Turret Road', cursive;
+    font-weight: bold;
+
+}
+.did-you-win {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.winLosses {
+   padding: 100px;
+   justify-content: space-between;
+   border: solid 2px black; 
+}

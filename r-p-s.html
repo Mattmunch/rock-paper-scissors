@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="r-p-s.css">
+    <link href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap" rel="stylesheet">
+
     <title>Rock, Paper, Scissors</title>
 </head>
 
 <body>
-    <h1><strong>ROCK,</strong> Paper, Scissors</h1>
+    <h1><strong>Rock,</strong> Paper, Scissors</h1>
 <article>
     <h3>Rules</h3>
     <ul>
@@ -19,6 +21,7 @@
         <li>Scissors beats paper</li>
     </ul>
 </article>
+<article >
     <label class="ima">
         <input name="choice" value="rock" type="radio" checked />
         <img class="rock-image" src="assets/rock.jpeg">
@@ -31,12 +34,15 @@
         <input name="choice" value="scissors" type="radio" />
         <img class="scissor-image" src="assets/scissors.jpg">
     </label>
+</article>
     <button id="throwButton">Roshambeau</button>
-    <br><span>Wins: <span id="win-span"></span></span> <br>
-    <br><span>Losses: <span id="loss-span"></span></span> <br>
-    <br><span>Draws:<span id="draw-span"></span></span><br>
-    <br><span>Win/Loss Pct: <span id="percentage-span"></span>%</span>
-
+    <br>
+<article class="did-you-win">
+    <span class="winsLosses">Wins: <span id="win-span"></span></span> <br>
+    <br><span class="winsLosses">Losses: <span id="loss-span"></span></span> <br>
+    <br><span class="winsLosses">Draws:<span id="draw-span"></span></span><br>
+    <br><span class="winsLosses">Win/Loss Pct: <span id="percentage-span"></span>%</span>
+</article>
 
 
 
